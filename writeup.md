@@ -46,6 +46,10 @@ Another approach, I tried is to change few parameters in svm model such as incre
 
 I also tried changing Kernel type from linear to poly, sigmoid and rbf. But in our case, linear kernel gives the best accuracy among all the kernel types.
 
+![svm](https://github.com/akathpal/RoboND-Perception-Project/blob/master/output/2.png)
+
+After changing the range, the new confusion matrix is shown below.
+![new_matrix](https://github.com/akathpal/RoboND-Perception-Project/blob/master/output/training_new.png)
 ### Pick and Place Setup
 
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
