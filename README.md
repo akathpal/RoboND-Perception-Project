@@ -9,7 +9,7 @@
    - run roslaunch pr2\_robot pick\_place\_project.launch.
    - run chmod u+x ../scripts/project.py
    - run rosrun pr2\_robot project
-   - Read writeup.md for explaination of my solution.
+   - Read writeup.md for explaination of my solution. Output yaml files are in output folder.
 2. To run the training , I have my scripts for that in code folder. Download the repository of Perception execises from udacity and replace train_svm, capture_features, object_recognition.py and features.py file.
 
 # 3D Perception
