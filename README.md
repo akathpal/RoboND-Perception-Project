@@ -1,4 +1,17 @@
+
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
+
+# Steps
+1. To run code, follow the steps below:
+   - Copy the files from final_training model to workspace directory. if your workspace name is catkin_ws, then copy it to ~/catkin_ws/
+   - Install the dependencies using rosdep
+   - Follow the steps mentioned below in project setup. My file name is project.py instead of project-template.py.
+   - run roslaunch pr2\_robot pick\_place\_project.launch.
+   - run chmod u+x ../scripts/project.py
+   - run rosrun pr2\_robot project
+   - Read writeup.md for explaination of my solution.
+2. To run the training , I have my scripts for that in code folder. Download the repository of Perception execises from udacity and replace train_svm, capture_features, object_recognition.py and features.py file.
+
 # 3D Perception
 Before starting any work on this project, please complete all steps for [Exercise 1, 2 and 3](https://github.com/udacity/RoboND-Perception-Exercises). At the end of Exercise-3 you have a pipeline that can identify points that belong to a specific object.
 
