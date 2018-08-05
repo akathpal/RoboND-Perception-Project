@@ -163,7 +163,6 @@ def pcl_callback(pcl_msg):
         normals = get_normals(sample_cloud)
         nhists = compute_normal_histograms(normals)
         feature = np.concatenate((chists, nhists))
-        # labeled_features.append([feature, model_name])
         
         # Make the prediction, retrieve the label for the result
         # and add it to detected_objects_labels list
@@ -183,7 +182,7 @@ def pcl_callback(pcl_msg):
         detected_objects.append(do)
 
 
-    rospy.loginfo('Detected {} objects: {}'.format(len(detected_objects_labels), detected_objects_labels))
+    rospy.loginfo('Detected {} objects:'.format(len(detected_objects_labels))
 
     # Publish the list of detected objects
     detected_objects_pub.publish(detected_objects)
