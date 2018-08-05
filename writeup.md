@@ -56,7 +56,7 @@ The output of all the 3 world_scenes are shown below:
 Output1:
 ![1](https://github.com/akathpal/RoboND-Perception-Project/blob/master/output/world_1_recognition.png)
 Output2:
-![2](https://github.com/akathpal/RoboND-Perception-Project/blob/master/output/world_1_pcl_cluster.png)
+![2](https://github.com/akathpal/RoboND-Perception-Project/blob/master/output/world_2_pcl_cluster.png)
 Output3:
 ![3](https://github.com/akathpal/RoboND-Perception-Project/blob/master/output/world_3_recognition.png)
 
